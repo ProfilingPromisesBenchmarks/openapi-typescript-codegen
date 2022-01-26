@@ -13,6 +13,7 @@ module.exports = {
             moduleNameMapper: {
                 '\\.hbs$': '<rootDir>/src/templates/__mocks__/index.js',
             },
+            setupFiles: ['/home/drasync/ProfilingPromisesAnalysis/asyncHooks_require.js']
         },
         {
             displayName: 'E2E',
